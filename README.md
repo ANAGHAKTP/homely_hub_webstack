@@ -3,7 +3,6 @@
 A webstack for Homely Hub — a platform to manage property listings, bookings, and user interactions for short-term and long-term rentals.
 
 [Optional badges — replace with real links]
-![license](https://img.shields.io/badge/license-MIT-blue)
 ![build](https://img.shields.io/badge/build-passing-brightgreen)
 
 ## Table of Contents
