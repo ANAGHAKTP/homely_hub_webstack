@@ -1,116 +1,99 @@
 # Homely Hub Webstack
 
-A webstack for Homely Hub — a platform to manage property listings, bookings, and user interactions for short-term and long-term rentals.
-
-[Optional badges — replace with real links]
-![build](https://img.shields.io/badge/build-passing-brightgreen)
+Welcome to **Homely Hub Webstack**, a project aimed at providing a seamless and integrated web solution for home management. This repository contains the web application code and resources for Homely Hub, designed to simplify and automate various aspects of home living.
 
 ## Table of Contents
 
 - [About](#about)
 - [Features](#features)
-- [Tech stack](#tech-stack)
-- [Installation](#installation)
-- [Environment](#environment)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Development](#development)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
 ## About
 
-Homely Hub helps property owners list spaces, manage availability and bookings, and helps guests discover and book comfortable stays. This repository contains the web application code (frontend and/or backend services) for Homely Hub.
+Homely Hub Webstack is designed to connect, manage, and automate smart home devices and resources through a user-friendly web interface. Whether you’re looking to monitor devices, schedule tasks, or simply streamline your home operations, Homely Hub provides the tools to do so efficiently.
 
 ## Features
 
-- Property listings with images and detailed descriptions
-- User authentication and profiles (owners and guests)
-- Booking flow with availability checks and reservations
-- Admin dashboard for managing listings and bookings
-- RESTful APIs and/or GraphQL endpoints for integrations
+- Device management and monitoring
+- User authentication and secure access
+- Real-time status updates
+- Customizable schedules and automations
+- Responsive user interface
 
-## Tech stack
+## Tech Stack
 
-Replace these placeholders with the actual stack used in this repo:
+> _Note: Please update the following list to reflect the actual technologies used in your repository._
 
-- Frontend: React, Next.js, or similar
-- Backend: Node.js, Express, NestJS, Django, or similar
-- Database: PostgreSQL, MongoDB, or similar
-- Dev tooling: Docker, ESLint, Prettier, GitHub Actions
+- **Frontend:** (e.g., React.js, Vue.js, HTML5, CSS3)
+- **Backend:** (e.g., Node.js, Express, Django)
+- **Database:** (e.g., MongoDB, PostgreSQL)
+- **Other:** (e.g., WebSockets, REST API, Docker)
 
-## Installation
+## Getting Started
 
-Prerequisites:
-- Git
-- Node.js (LTS recommended)
-- npm or yarn
-- Docker (optional)
+### Prerequisites
 
-Clone the repo and install dependencies:
+- Node.js and npm installed
+- (Optional) Docker and Docker Compose
+- Access to your database and API keys
 
-```bash
-git clone https://github.com/ANAGHAKTP/homely_hub_webstack.git
-cd homely_hub_webstack
-# Install dependencies (example)
-npm install
-# or
-yarn install
-```
+### Installation
 
-If the repository contains multiple services, check each service folder for its README and follow service-specific instructions or use Docker Compose if provided.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/SudoAnirudh/Homely_Hub-Webstack-.git
+   cd Homely_Hub-Webstack-
+   ```
 
-## Environment
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-Create a `.env` file in the project root or use `.env.example`. Example variables:
+3. **Set up environment variables:**
+   - Copy `.env.example` to `.env` and update the values as needed.
 
-```env
-PORT=3000
-DATABASE_URL=postgres://user:password@localhost:5432/homelyhub
-JWT_SECRET=your_jwt_secret
-NODE_ENV=development
-```
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+   Or, if using Docker:
+   ```bash
+   docker-compose up
+   ```
 
 ## Usage
 
-Start the application (example commands):
-
-```bash
-# development
-npm run dev
-
-# production
-npm start
-```
-
-Open http://localhost:3000 (or configured PORT) in your browser. Adjust commands if the repo uses multiple services or a monorepo layout.
-
-## Development
-
-- Follow the code style rules in the repository (ESLint / Prettier).
-- Run tests with: npm test (or the project's test script).
-- Use Docker or Docker Compose if provided for local development that mirrors production.
+- Access the application at `http://localhost:3000` (or the port you configured).
+- Register or log in to your account.
+- Add and manage your devices.
+- Explore automation features from the dashboard.
 
 ## Contributing
 
-Contributions are welcome — please open an issue to discuss major changes first.
+Contributions are welcome! Please follow these steps:
 
-Suggested workflow:
 1. Fork the repository
-2. Create a feature branch:
-   git checkout -b feature/my-feature
-3. Commit your changes:
-   git commit -m "Add some feature"
-4. Push and open a Pull Request
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a pull request
 
-Include tests and update documentation where appropriate.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 ## License
 
-This project is licensed under the MIT License — see the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-Maintainer: ANAGHAKTP
+Created by [@SudoAnirudh](https://github.com/SudoAnirudh) — feel free to reach out!
 
 ---
+
+_Star this repo to support the project!_
