@@ -46,7 +46,7 @@ Homely Hub Webstack is designed to connect, manage, and automate smart home devi
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/SudoAnirudh/Homely_Hub-Webstack-.git
+   git clone https://github.com/ANAGHAKTP/homely_hub_webstack-.git
    cd Homely_Hub-Webstack-
    ```
 
@@ -92,7 +92,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-Created by [@SudoAnirudh](https://github.com/SudoAnirudh) — feel free to reach out!
+Created by [@ANAGHAKTP](https://github.com/ANAGHAKTP) — feel free to reach out!
 
 ---
 
